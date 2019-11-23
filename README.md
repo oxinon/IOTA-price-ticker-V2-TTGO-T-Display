@@ -2,7 +2,7 @@
 
 <br>
 
-<p><img src="https://github.com/oxinon/IOTA_price_ticker_TTGO-TS_1.8-TFT/blob/master/picture/IOTA-Ticker-CM.png" alt="Cover" width="300"></p>
+<p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/IOTA-Ticker-CM.png" alt="Cover" width="300"></p>
 
 Simple IOTA price ticker by using ESP32 based TTGO-TS_1.8 TFT and CoinMarketcap API for the Arduino IDE platform
 <br>
@@ -44,6 +44,6 @@ If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi dire
 
 If you like my work, you can give me a tip for a beer :)<br>
 <b>IOTA Donate address:</b> 
-CIMRZOWYFUGYRFUGBJRBDIILCUBNCNNBMYCJDFVJN9HRCNXQAPFRMHUI9KOQCQGXTZIKFFBJLRUJUUZPYEAZEWOXAX <br>
+GMJSIFOWMWQMIQGRIYDMQKLMREAYEBIRGTMEZAGG9DFVUBHODFQ9NKGZEVYZWPFZJAZTIEUBA9ZKMEQMDANHHACWB9 <br>
 
-<p><img src="https://github.com/oxinon/IOTA_price_ticker_TTGO-TS_1.8-TFT/blob/master/picture/qrcode.png" alt="Cover" width="200"></p>
+<p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/qrcode.png" alt="Cover" width="200"></p>
