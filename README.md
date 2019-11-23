@@ -6,7 +6,7 @@
 
 Simple IOTA price ticker by using ESP32 based TTGO-T-Display and CoinMarketcap API for the Arduino IDE platform
 <br>
-IOTA ticker V2 on Youtube: (coming soon)
+IOTA ticker V2 on Youtube: https://youtu.be/vdw2eKsP-xM
 <br>
 <br>
 
@@ -34,7 +34,7 @@ Now we add libraries for Arduino IDE:
 + [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)
 + [CoinMarketCapApi.h](https://github.com/witnessmenow/arduino-coinmarketcap-api)
    
-The instruction for the "TFT_eSPI" can be found here https://github.com/Xinyuan-LilyGO/TTGO-T-Display<br>
+The instruction for the "TFT_eSPI" and TTGO-T-Display can be found here https://github.com/Xinyuan-LilyGO/TTGO-T-Display<br>
 If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi directory, you can use the esp32 WiFi.h
 <br>
 <br>
