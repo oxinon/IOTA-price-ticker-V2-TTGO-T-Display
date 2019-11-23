@@ -16,7 +16,7 @@ IOTA ticker on Youtube: https://www.youtube.com/watch?v=napduhMtkBk&t=94s
 
 + [Add ESP32 Arduino IDE](#ESP32)
 + [Libraries for Arduino IDE](#libraries)
-+ [Additional information](#additional)
++ [Case information](#case)
 
 * * *
 <br>
@@ -34,7 +34,16 @@ Now we add libraries for Arduino IDE:
 + [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)
 + [CoinMarketCapApi.h](https://github.com/Bodmer/TFT_eSPI)
    
-
+The instruction for the "TFT_eSPI" can be found here https://github.com/Xinyuan-LilyGO/TTGO-T-Display
 If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi directory, you can use the esp32 WiFi.h
 <br>
 <br>
+<a name="case"></a><h2>Case information</h2>
+
+* * *
+
+If you like my work, you can give me a tip for a beer :)<br>
+<b>IOTA Donate address:</b> 
+CIMRZOWYFUGYRFUGBJRBDIILCUBNCNNBMYCJDFVJN9HRCNXQAPFRMHUI9KOQCQGXTZIKFFBJLRUJUUZPYEAZEWOXAX <br>
+
+<p><img src="https://github.com/oxinon/IOTA_price_ticker_TTGO-TS_1.8-TFT/blob/master/picture/qrcode.png" alt="Cover" width="200"></p>
