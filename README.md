@@ -6,7 +6,7 @@
 
 Simple IOTA price ticker by using ESP32 based TTGO-T-Display and CoinMarketcap API for the Arduino IDE platform
 <br>
-IOTA ticker on Youtube: https://www.youtube.com/watch?v=napduhMtkBk&t=94s
+IOTA ticker V2 on Youtube: (coming soon)
 <br>
 <br>
 
@@ -39,6 +39,7 @@ If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi dire
 <br>
 <br>
 <a name="case"></a><h2>Case information</h2>
+(coming soon)
 
 * * *
 
