@@ -29,10 +29,12 @@ In board selector you can select "ESP32 Dev Module" for TTGO-T-Display.
 
 <a name="libraries"></a><h2>Libraries for Arduino IDE</h2>
 Now we add libraries for Arduino IDE:
+<br>
 
-<b>TFT_eSPI</b><p>
-<b>CoinMarketCapApi.h</b><p>
++ [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)
++ [CoinMarketCapApi.h](https://github.com/Bodmer/TFT_eSPI)
+   
 
-  If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi directory, you can use the esp32 WiFi.h
+If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi directory, you can use the esp32 WiFi.h
 <br>
 <br>
