@@ -39,6 +39,7 @@ If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi dire
 <br>
 <br>
 <a name="case"></a><h2>Case information</h2>
+You fin two files in case directory, .dxf and .stp With the files you can cut stainless steel sheet. I use a laser cuter for this.
 <p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/case/case2.png" alt="Cover" width="600"></p>
 
 * * *
