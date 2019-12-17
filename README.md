@@ -34,7 +34,7 @@ Now we add libraries for Arduino IDE 1.8.7:
 
 + [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)
 + [CoinMarketCapApi.h](https://github.com/witnessmenow/arduino-coinmarketcap-api)
-+ [ArduinoJSON version 5.13.5](https://github.com/bblanchon/ArduinoJson) version 5.13.5 is testet 
++ [ArduinoJSON](https://github.com/bblanchon/ArduinoJson) version 5.13.5 is testet 
    
 The instruction for the "TFT_eSPI" and TTGO-T-Display can be found here https://github.com/Xinyuan-LilyGO/TTGO-T-Display<br>
 If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi directory, you can use the esp32 WiFi.h
