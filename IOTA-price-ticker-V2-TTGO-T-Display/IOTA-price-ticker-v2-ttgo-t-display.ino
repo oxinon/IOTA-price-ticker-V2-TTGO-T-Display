@@ -195,8 +195,6 @@ void printTickerData(String ticker) {
  }
 
 
-
-  //tft.drawString("USD", 88, 60, 2);
   tft.drawString(String(response.price_usd).c_str(), 117, 37, 6);
   tft.setTextColor(ST7735_AQUA);
   tft.drawString("Rank:", 117, 80, 4);
