@@ -4,9 +4,6 @@
 
 <p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/priceticker2.png" alt="Cover" width="600"></p>
 
-<br>
-
-<p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/priceticker3.png" alt="Cover" width="600"></p>
 
 Simple IOTA price ticker by using ESP32 based TTGO-T-Display and CoinMarketcap API for the Arduino IDE platform
 <br>
