@@ -6,7 +6,7 @@
 <br>
 <br>
 <b>!!! Please do not use it, because the Coimarketcap is no longer available !!!</b> <br>
-uUpdate is planned for coingecko
+Update is planned for coingecko
 <br>
 <br>
 Simple IOTA price ticker by using ESP32 based TTGO-T-Display and CoinMarketcap API for the Arduino IDE platform
