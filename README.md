@@ -5,7 +5,7 @@
 <p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/priceticker2.png" alt="Cover" width="600"></p>
 <br>
 <br>
-<b>!!! Please do not use it, because the Coimarketcap is no longer available !!!<b/> <br>
+<b>!!! Please do not use it, because the Coimarketcap is no longer available !!!</b> <br>
 uUpdate is planned for coingecko
 <br>
 <br>
