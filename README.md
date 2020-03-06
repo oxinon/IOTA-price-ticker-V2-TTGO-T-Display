@@ -3,8 +3,12 @@
 <br>
 
 <p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/priceticker2.png" alt="Cover" width="600"></p>
-
-
+<br>
+<br>
+!!! Please do not use it, because the Coimarketcap is no longer available !!! <br>
+uUpdate is planned for coingecko
+<br>
+<br>
 Simple IOTA price ticker by using ESP32 based TTGO-T-Display and CoinMarketcap API for the Arduino IDE platform
 <br>
 IOTA ticker V2 on Youtube: https://youtu.be/vdw2eKsP-xM
