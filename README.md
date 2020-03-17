@@ -31,7 +31,7 @@ The instruction on https://randomnerdtutorials.com/installing-the-esp32-board-in
 In board selector you can select "ESP32 Dev Module" for TTGO-T-Display.
 <br>
 <br>
-For MAC users install the "CP210x USB to UART Bridge VCP Drivers" from Silicon Labs, the port to select is /dev/cu.SLAB_USBtoUART in Arduino IDE unter tools-->Port
+For MAC users install the "CP210x USB to UART Bridge VCP Drivers" from Silicon Labs, the port to select is /dev/cu.SLAB_USBtoUART in Arduino IDE under tools-->Port
 <br>
 https://www.silabs.com/community/interface/knowledge-base.entry.html/2017/01/10/legacy_os_softwarea-bgvU
 <br>
@@ -51,6 +51,8 @@ If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi dire
 <a name="case"></a><h2>Case information</h2>
 You find two files in case directory, .dxf and .stp With the files you can cut stainless steel sheet. I use a laser cuter for this.
 <p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/case/case2.png" alt="Cover" width="600"></p>
+<br>
+<p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/IOTA-Price-Ticker-build.png.jpg" alt="Cover" width="600"></p>
 
 * * *
 
