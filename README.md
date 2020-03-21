@@ -6,7 +6,7 @@
 <br>
 <br>
 <b>!!! Please do not use it, because the Coimarketcap API v1 is no longer available !!!</b> <br>
-Update is planned for coingecko
+Update with API Key is planned for the coingecko API
 <br>
 <br>
 Simple IOTA price ticker by using ESP32 based TTGO-T-Display and CoinMarketcap API for the Arduino IDE platform
