@@ -7,6 +7,8 @@
 <br>
 <b>Update with new Coinmarketcap2 API key</b>
 <br>
+<b>Important: update the to new libraries Coinmarketcap2 and ArduinoJSON 6.x</b>
+<br>
 <br>
 Simple IOTA price ticker by using ESP32 based TTGO-T-Display and CoinMarketcap API for the Arduino IDE platform
 <br>
