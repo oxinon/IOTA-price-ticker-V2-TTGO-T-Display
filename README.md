@@ -37,13 +37,13 @@ https://www.silabs.com/community/interface/knowledge-base.entry.html/2017/01/10/
 <br>
 
 <a name="libraries"></a><h2>Libraries for Arduino IDE</h2>
-Now we add libraries for Arduino IDE 1.8.7:
+Now we add libraries for Arduino IDE 1.8.7:<br>
 The new api requires a developer key, so you must apply for a key to use https://pro.coinmarketcap.com/account
 <br>
 
-+ [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) https://github.com/Bodmer/TFT_eSPI
-+ [CoinMarketCapApi.h](https://github.com/lewisxhe/CoinMarketCapApi2) https://github.com/lewisxhe/CoinMarketCapApi2
-+ [ArduinoJSON](https://github.com/bblanchon/ArduinoJson) https://github.com/bblanchon/ArduinoJson  version 6.x is testet 
++ [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) 
++ [CoinMarketCapApi.h](https://github.com/lewisxhe/CoinMarketCapApi2) 
++ [ArduinoJSON](https://github.com/bblanchon/ArduinoJson) version 6.x is testet 
    
 The instruction for the "TFT_eSPI" and TTGO-T-Display can be found here https://github.com/Xinyuan-LilyGO/TTGO-T-Display<br>
 If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi directory, you can use the esp32 WiFi.h
