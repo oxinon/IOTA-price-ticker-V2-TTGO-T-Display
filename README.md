@@ -5,8 +5,7 @@
 <p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/priceticker2.png" alt="Cover" width="600"></p>
 <br>
 <br>
-<b>!!! Please do not use it, because the Coimarketcap API v1 is no longer available !!!</b> <br>
-Update with API Key is planned for the coingecko API
+<b>Update with new Coinmarketcap2 API key</b>
 <br>
 <br>
 Simple IOTA price ticker by using ESP32 based TTGO-T-Display and CoinMarketcap API for the Arduino IDE platform
@@ -26,6 +25,7 @@ IOTA ticker V2 on Youtube: https://youtu.be/vdw2eKsP-xM
 * * *
 <br>
 <a name="ESP32"></a><h2>Add ESP32 in Arduino IDE</h2>
+
 Before we can start compiling, the Arduino IDE must have the TTGO-T-Display board, based on an ESP32 in the board selection available.
 The instruction on https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
 In board selector you can select "ESP32 Dev Module" for TTGO-T-Display.
@@ -38,11 +38,12 @@ https://www.silabs.com/community/interface/knowledge-base.entry.html/2017/01/10/
 
 <a name="libraries"></a><h2>Libraries for Arduino IDE</h2>
 Now we add libraries for Arduino IDE 1.8.7:
+The new api requires a developer key, so you must apply for a key to use https://pro.coinmarketcap.com/account
 <br>
 
-+ [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)
-+ [CoinMarketCapApi.h](https://github.com/witnessmenow/arduino-coinmarketcap-api)
-+ [ArduinoJSON](https://github.com/bblanchon/ArduinoJson) version 5.13.5 is testet 
++ [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) https://github.com/Bodmer/TFT_eSPI
++ [CoinMarketCapApi.h](https://github.com/lewisxhe/CoinMarketCapApi2) https://github.com/lewisxhe/CoinMarketCapApi2
++ [ArduinoJSON](https://github.com/bblanchon/ArduinoJson) https://github.com/bblanchon/ArduinoJson  version 6.x is testet 
    
 The instruction for the "TFT_eSPI" and TTGO-T-Display can be found here https://github.com/Xinyuan-LilyGO/TTGO-T-Display<br>
 If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi directory, you can use the esp32 WiFi.h
