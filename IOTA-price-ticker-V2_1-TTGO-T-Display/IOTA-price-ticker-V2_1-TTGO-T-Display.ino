@@ -178,11 +178,11 @@ void printTickerData(String ticker)
         }
 
 
-        tft.drawString(String(response.price).c_str(), 117, 37, 6);
+        tft.drawString(String(response.price).c_str(), 100, 37, 6);
         tft.setTextColor(TFT_AQUA);
-        tft.drawString("Rank:", 117, 80, 4);
+        tft.drawString("Rank:", 100, 80, 4);
 
-        tft.drawString(String(response.cmc_rank).c_str(), 190, 80, 4);
+        tft.drawString(String(response.cmc_rank).c_str(), 183, 80, 4);
 
         tft.drawLine(11, 106, 229, 106, TFT_GRAY);
 
