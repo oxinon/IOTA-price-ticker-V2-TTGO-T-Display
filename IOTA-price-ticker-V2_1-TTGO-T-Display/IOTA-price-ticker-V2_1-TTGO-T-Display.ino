@@ -110,6 +110,8 @@ void setup()
     delay(1000);
     tft.fillRect(0, 0, 240, 135, TFT_BLACK);
 
+    client.setInsecure();
+    
     tft.pushImage(0, 0, iota2Width, iota2Height, iota2);
 }
 
