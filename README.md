@@ -1,74 +1,62 @@
-<p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/IOTA-Price-Ticker.png" alt="Cover" width="400"></p>
+# IOTA Price Ticker V2 – TTGO T-Display (ESP32)
 
-<br>
+A simple IOTA (MIOTA) price ticker built on the TTGO T-Display (ESP32 with a 1.14" TFT screen). It polls the CoinMarketCap API and shows the current price on the display.
 
-<p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/priceticker2.png" alt="Cover" width="600"></p>
-<br>
-<br>
-<b>Update with new Coinmarketcap2 API key</b>
-<br>
-<b>Important: update the to new libraries Coinmarketcap2 and ArduinoJSON 6.x</b>
-<br>
-<br>
-Simple IOTA price ticker by using ESP32 based TTGO-T-Display and CoinMarketcap API for the Arduino IDE platform
-<br>
-IOTA ticker V2 on Youtube: https://youtu.be/vdw2eKsP-xM
-<br>
-<br>
+![Ticker](https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/raw/master/picture/IOTA-Price-Ticker.png)
+![Ticker running](https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/raw/master/picture/priceticker2.png)
 
-* * *
+[Watch V2 in action on YouTube](https://youtu.be/vdw2eKsP-xM)
 
-<b>Index of this project</b>
+> **Note:** This project uses the CoinMarketCap API **v2**, which requires a free developer key. Make sure you're on the `CoinMarketCapApi2` library and ArduinoJSON 6.x — older setups using the v1 API/library will not work.
 
-+ [Add ESP32 Arduino IDE](#ESP32)
-+ [Libraries for Arduino IDE](#libraries)
-+ [Case information](#case)
+## Hardware
 
-* * *
-<br>
-<a name="ESP32"></a><h2>Add ESP32 in Arduino IDE</h2>
+- [TTGO T-Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display) (ESP32, 1.14" TFT)
 
-Before we can start compiling, the Arduino IDE must have the TTGO-T-Display board, based on an ESP32 in the board selection available.
-The instruction on https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
-In board selector you can select "ESP32 Dev Module" for TTGO-T-Display.
-<br>
-<br>
-For MAC users install the "CP210x USB to UART Bridge VCP Drivers" from Silicon Labs, the port to select is /dev/cu.SLAB_USBtoUART in Arduino IDE under tools-->Port
-<br>
-https://www.silabs.com/community/interface/knowledge-base.entry.html/2017/01/10/legacy_os_softwarea-bgvU
-<br>
+## Prerequisites
 
-<a name="libraries"></a><h2>Libraries for Arduino IDE</h2>
-Now we add libraries for Arduino IDE 1.8.7:<br>
-The new api requires a developer key, so you must apply for a key to use https://pro.coinmarketcap.com/account
-<br>
+- Arduino IDE
+- ESP32 board package **version 1.0.4** (version 1.0.5 is known not to work with this project)
+- A free CoinMarketCap API key: <https://pro.coinmarketcap.com/account>
 
-+ [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) 
-+ [CoinMarketCapApi.h](https://github.com/lewisxhe/CoinMarketCapApi2) 
-+ [ArduinoJSON](https://github.com/bblanchon/ArduinoJson) version 6.x is testet 
+## Setup
 
-<br>
+### 1. Add ESP32 support to the Arduino IDE
 
-Important: Please chose the ESP32 Board libraris the version 1.0.4, version 1.0.5 will not work for now!
+Follow this guide to install the ESP32 board package: <https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/>
 
-<p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/ESP32lib.png" alt="Cover" width="600"></p>
+In the board selector, choose **ESP32 Dev Module** for the TTGO T-Display.
 
-<br>
-   
-The instruction for the "TFT_eSPI" and TTGO-T-Display can be found here https://github.com/Xinyuan-LilyGO/TTGO-T-Display<br>
-If you are have problem with the "wifi.h" delete the arduino/libraries/wiFi directory, you can use the esp32 WiFi.h
-<br>
-<br>
-<a name="case"></a><h2>Case information</h2>
-You find two files in case directory, .dxf and .stp With the files you can cut stainless steel sheet. I use a laser cuter for this.
-<p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/case/case2.png" alt="Cover" width="600"></p>
-<br>
-<p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/IOTA-Price-Ticker-build.png.jpg" alt="Cover" width="600"></p>
+**macOS users:** install the [CP210x USB to UART Bridge VCP driver](https://www.silabs.com/community/interface/knowledge-base.entry.html/2017/01/10/legacy_os_softwarea-bgvU) from Silicon Labs. The correct port is `/dev/cu.SLAB_USBtoUART` (Tools → Port).
 
-* * *
+### 2. Install the required libraries
 
-If you like my work, you can give me a tip for a beer :)<br><br>
-<b>IOTA Donate address:</b> 
-iota1qz4uqyauz486zvrm2jjn4gurq5dzcmhezr0d6smykgaferx6madmzj2rzxr <br>
+Tested with Arduino IDE 1.8.7:
 
-<p><img src="https://github.com/oxinon/IOTA-price-ticker-V2-TTGO-T-Display/blob/master/picture/qrcode3.png" alt="Cover" width="200"></p>
+| Library | Notes |
+|---|---|
+| [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) | Display driver |
+| [CoinMarketCapApi2](https://github.com/lewisxhe/CoinMarketCapApi2) | v2, requires your API key |
+| [ArduinoJson](https://github.com/bblanchon/ArduinoJson) | v6.x tested |
+
+Setup instructions for `TFT_eSPI` on the TTGO T-Display: <https://github.com/Xinyuan-LilyGO/TTGO-T-Display>
+
+**Troubleshooting:** If you run into `WiFi.h` conflicts, delete the `arduino/libraries/WiFi` directory and use the ESP32 core's built-in `WiFi.h` instead.
+
+### 3. Flash the sketch
+
+Open the sketch in Arduino IDE, enter your CoinMarketCap API key, select the correct board/port, and upload.
+
+## Enclosure
+
+The `case/` folder contains `.dxf` and `.stp` files for a stainless-steel enclosure, designed to be cut on a laser cutter.
+
+## Support
+
+If you find this useful, IOTA donations are welcome:
+
+`iota1qz4uqyauz486zvrm2jjn4gurq5dzcmhezr0d6smykgaferx6madmzj2rzxr`
+
+## License
+
+[GPL-3.0](LICENSE)
